@@ -39,6 +39,7 @@ nav ul {
 nav li{
   display: inline-block;
   right: 10px;
+  text-decoration: underline;
 }
 
 .mission{
@@ -97,23 +98,33 @@ nav li{
 .place{
   width: 300px;
   opacity: 1;
-  margin: 20px;
+  margin: 15px 20px;
 }
 
 .places{
   display: flex;
+  background: none;
+  justify-content: center;
 }
 
-.title{
+.title, h2{
   z-index: 15;
-  background-color: transparent;
+  background: none;
 }
 
 .contact{
   height: 200px;
 }
 
-footer{
+footer h5{
   text-align: left;
   left: 20px;
+}
+
+body {
+  font-size: 22px;
+}
+
+p{
+  margin: 30px;
 }
